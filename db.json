@@ -17,6 +17,12 @@
       "title": "A new movie is published",
       "image": "https://ichef.bbci.co.uk/images/ic/720x405/p0517py6.jpg",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quia ex temporibus ab repudiandae similique voluptatibus tempore facilis, animi ullam officiis quibusdam? Provident dignissimos saepe nulla distinctio veritatis porro ducimus."
+    },
+    {
+      "title": "New One",
+      "desc": "Lorem Ipsum",
+      "image": "https://www.cesarsway.com/sites/newcesarsway/files/styles/large_article_preview/public/Common-dog-behaviors-explained.jpg?itok=FSzwbBoi",
+      "id": 8
     }
   ]
 }

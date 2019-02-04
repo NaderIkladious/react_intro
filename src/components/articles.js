@@ -18,7 +18,14 @@ class Articles extends React.Component {
   render() {
     return (
       <div className="articles">
-        <h1>Articles</h1>
+        <div className="row justify-content-between">
+          <h1>Articles</h1>
+          <div>
+            <Link className="btn btn-primary" to="/articles/new">
+              New Article
+            </Link>
+          </div>
+        </div>
         <div className="row">
           {this.state.articles.map(article => {
             return (
