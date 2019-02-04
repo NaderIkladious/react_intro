@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Header from './components/header';
 import Articles from './components/articles';
+import Article from './components/article';
 
 class App extends Component {
   render() {
@@ -9,8 +11,12 @@ class App extends Component {
       <div className="App">
         <Header />
         <div className="container">
-          <h1>Articles</h1>
-          <Articles />
+          <Router>
+            <Switch>
+              <Route path="/" exact component={Articles} />
+              <Route path="/articles/:id" component={Article} />
+            </Switch>
+          </Router>
         </div>
       </div>
     );
